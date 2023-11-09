@@ -35,6 +35,11 @@ def set_title_and_subtitle(fig:matplotlib.figure.Figure,
             specifies the amount of horizontal displacement towards the 
             right (left) of the figure. The reference (zero) is the text 
             anchor point as specified by 'aligment'.
+        v_offset:
+            Vertical offset (in pt). A positive value specifies the 
+            amount of vertical displacement towards the bottom of the 
+            figure starting from the top border. A negative value has no 
+            effect.
 
 
     Returns: None.
