@@ -457,6 +457,23 @@ anchor point as specified by 'aligment'.</p>
                 <code>2</code>
           </td>
         </tr>
+        <tr>
+          <td><code>v_offset</code></td>
+          <td>
+                <code>float</code>
+          </td>
+          <td>
+            <div class="doc-md-description">
+              <p>Vertical offset (in pt). A positive value specifies the 
+amount of vertical displacement towards the bottom of the 
+figure starting from the top border. A negative value has no 
+effect.</p>
+            </div>
+          </td>
+          <td>
+                <code>2</code>
+          </td>
+        </tr>
     </tbody>
   </table>
       <p>Returns: None.</p>
@@ -552,7 +569,12 @@ anchor point as specified by 'aligment'.</p>
 <span class="normal">81</span>
 <span class="normal">82</span>
 <span class="normal">83</span>
-<span class="normal">84</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">set_title_and_subtitle</span><span class="p">(</span><span class="n">fig</span><span class="p">:</span><span class="n">matplotlib</span><span class="o">.</span><span class="n">figure</span><span class="o">.</span><span class="n">Figure</span><span class="p">,</span> 
+<span class="normal">84</span>
+<span class="normal">85</span>
+<span class="normal">86</span>
+<span class="normal">87</span>
+<span class="normal">88</span>
+<span class="normal">89</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span> <span class="nf">set_title_and_subtitle</span><span class="p">(</span><span class="n">fig</span><span class="p">:</span><span class="n">matplotlib</span><span class="o">.</span><span class="n">figure</span><span class="o">.</span><span class="n">Figure</span><span class="p">,</span> 
                            <span class="n">title</span><span class="p">:</span><span class="nb">str</span><span class="p">,</span> 
                            <span class="n">subtitle</span><span class="p">:</span><span class="nb">str</span><span class="p">,</span> 
                            <span class="n">alignment</span><span class="p">:</span><span class="nb">str</span><span class="o">=</span><span class="s1">&#39;left&#39;</span><span class="p">,</span> 
@@ -585,6 +607,11 @@ anchor point as specified by 'aligment'.</p>
 <span class="sd">            specifies the amount of horizontal displacement towards the </span>
 <span class="sd">            right (left) of the figure. The reference (zero) is the text </span>
 <span class="sd">            anchor point as specified by &#39;aligment&#39;.</span>
+<span class="sd">        v_offset:</span>
+<span class="sd">            Vertical offset (in pt). A positive value specifies the </span>
+<span class="sd">            amount of vertical displacement towards the bottom of the </span>
+<span class="sd">            figure starting from the top border. A negative value has no </span>
+<span class="sd">            effect.</span>
 
 
 <span class="sd">    Returns: None.</span>
