@@ -1,0 +1,14 @@
+[project]
+name = 'mpl-ornaments'
+version = '0.0.1'
+authors = [
+    {name = "Francesco Bianconi", email = "bianco@ieee.org"}
+]
+description = "Small extensions to Matplotlib"
+readme = "README.md"
+requires-python = ">=10.4"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]

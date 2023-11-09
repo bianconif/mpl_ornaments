@@ -1,0 +1,11 @@
+site_name: mpl-ornaments docs
+
+theme:
+  name: "material"
+  
+plugins:
+  - mkdocstrings
+
+nav:
+  - mpl-ornaments docs: index.md
+  - reference.md
