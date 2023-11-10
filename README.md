@@ -16,4 +16,5 @@ fig.savefig(fname='title1.png')
 ```
 
 The above code produces the following result:
+
 [<img src="https://github.com/bianconif/mpl_ornaments/blob/master/output/title1.png"/>]
