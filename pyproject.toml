@@ -1,6 +1,6 @@
 [project]
 name = 'mpl-ornaments'
-version = '0.0.2'
+version = '0.0.3'
 authors = [
     {name = "Francesco Bianconi", email = "bianco@ieee.org"}
 ]
