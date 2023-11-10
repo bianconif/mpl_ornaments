@@ -1,4 +1,4 @@
-"""Add title and subtitles to a Matplotlib figure in an easy and neat way.
+"""Add title and subtitles to a Matplotlib figure in a neat and easy way.
 """
 import matplotlib
 
