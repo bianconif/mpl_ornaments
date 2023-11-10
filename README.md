@@ -1,10 +1,17 @@
 # mpl-ornaments
 A library featuring some extensions to [Matplotlib](https://matplotlib.org/). Full documentation available [here]( https://bianconif.github.io/mpl_ornaments/).
 
-## The `titles` module
+## Installation
+```python
+pip install mpl-ornaments
+```
+
+## Usage
+
+### The `titles` module
 The title module allows to add title and subtitle to a Matplotlib's `Figure` in a and neat and easy way.
 
-###  Example
+####  Example
 
 ```python
 import matplotlib.pyplot as plt
@@ -17,4 +24,4 @@ fig.savefig(fname='title1.png')
 
 The above code produces the following result:
 
-[<img src="https://github.com/bianconif/mpl_ornaments/blob/master/output/title1.png"/>]
+![title1](output/title1.png)
