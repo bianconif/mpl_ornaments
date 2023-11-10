@@ -16,5 +16,4 @@ fig.savefig(fname='title1.png')
 ```
 
 The above code produces the following result:
-
-![title1](output/title1.png "title1")
+[<img src="https://github.com/bianconif/mpl_ornaments/blob/master/output/title1.png"/>]
