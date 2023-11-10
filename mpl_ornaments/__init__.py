@@ -1,1 +1,1 @@
-"""A library featuring some extensions to Matplotlib"""
+"""A library featuring some extensions to Matplotlib."""
