@@ -1,4 +1,4 @@
-"""Add title and subtitles to a Matplotlib figure in an easy and neat way
+"""Add title and subtitles to a Matplotlib figure in an easy and neat way.
 """
 import matplotlib
 
@@ -25,9 +25,9 @@ def set_title_and_subtitle(fig:matplotlib.figure.Figure,
             The horizontal alignment. Possible values are 'left', 
             'center' or 'right'.
         title_size: 
-            The title size (in pt). 
+            The title font size (in pt). 
         subtitle_size:
-            The subtitle size (in pt).
+            The subtitle font size (in pt).
         v_space: 
             Vertical space between title and subtitle (in pt).
         h_offset:
@@ -41,8 +41,8 @@ def set_title_and_subtitle(fig:matplotlib.figure.Figure,
             figure starting from the top border. A negative value has no 
             effect.
 
-
-    Returns: None.
+    Returns: 
+        None.
         
     Examples:
         >>> import matplotlib.pyplot as plt
